@@ -1,0 +1,687 @@
+html{
+    background-color: rgb(236, 236, 236);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* style of nav */
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px 0;
+    background-color: rgb(182, 78, 78);
+
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 30px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #185e35;
+}
+
+.log-facci {
+    width: 250px;
+}
+
+hr {
+
+    border: 2px solid green;
+}
+
+
+.nav-inf {
+    width: 100% !important;
+}
+
+.footer-inf {
+    width: 99% !important;
+    height: 40px !important;
+    position: fixed !important;
+    bottom: 10px !important;
+    /*background-color: rgb(219, 219, 219);*/
+}
+
+
+/* style login */
+.date-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: blueviolet; */
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border: 1px solid #4b4a4a;
+    border-radius: 5px;
+}
+
+.date-login .dates {
+    padding: 30px;
+}
+
+.date-login .dates .data-info {
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: start;
+    gap: 20px;
+}
+
+.date-login .dates .data-info input {
+    text-align: start;
+    padding-left: 10px;
+}
+
+.nav-log {
+    width: 100% !important;
+    height: 400px !important;
+    position: absolute;
+}
+
+.btn-login a {
+    color: white;
+
+}
+
+.btn-reg {
+    background-color: green;
+    width: 300px;
+    height: 40px;
+    font-size: larger;
+    border-radius: 4px;
+
+}
+
+.btn-reg:hover {
+    background-color: #0f4d0f;
+}
+
+.btn-autenticated {
+    background-color: green;
+    width: 130px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.btn-autenticated a {
+    color: white;
+}
+
+.btn-autenticated:hover {
+    background-color: #0f4d0f;
+}
+
+/* styles de nav login */
+
+.example {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+    background-size: cover;
+
+}
+
+
+.options-menu {
+
+    width: 200px;
+
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.click {
+
+    background-color: green;
+    border-radius: 4px;
+}
+
+.click:hover {
+
+    background-color: #076107;
+
+}
+
+.click, .links {
+
+    padding: 12px;
+
+    font-size: 1.2em;
+
+
+    border: none;
+
+    outline: none;
+
+    width: 200px;
+
+    color: #fff;
+
+    transition: 0.3s;
+
+}
+
+.list {
+
+    position: absolute;
+
+    transform: scaleY(0);
+
+    transform-origin: top;
+
+    transition: 0.3s;
+
+}
+
+.newlist {
+
+    transform: scaleY(1);
+
+}
+
+.links {
+
+    background-color: #90bb90;
+
+}
+
+.links:hover {
+
+    background-color: #7ba17b;
+
+    transform: scale(1.1);
+
+}
+
+/* separar Lab */
+.container-gestion {
+    width: 70%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+.options li {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+
+
+.crud-lab-dates {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #797777;
+    border-radius: 4px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+.date-lab {
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: start;
+    gap: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.crud-lab-dates li {
+    list-style: none;
+    text-align: end;
+    margin: 20px 30px;
+}
+
+
+
+
+
+/* styles historial */
+.caja_contenedora {
+    display: flex;
+    padding: 20px;
+}
+
+.formulario_registro {
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px;
+    width: 700px;
+    margin: auto;
+}
+
+.formulario_registro h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.formulario_registro div {
+    display: flex;
+    padding: 10px;
+}
+
+.formulario_registro form {
+    background-color: rgb(200, 78, 80);
+    height: 690px;
+    padding: 15px;
+    width: 375px;
+}
+
+.formulario_registro img {
+    padding-top: 200px;
+}
+
+.formulario_registro h2 {
+    color: white;
+    padding: 5px;
+}
+
+.formulario_registro input {
+    border: 1px solid black;
+    height: 30px;
+    outline: none;
+    width: 300px;
+}
+
+.formulario_registro input:focus {
+    border: 2px solid #228b22;
+}
+
+.boton_registro {
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    width: 225px;
+}
+
+.asi {
+    /*background-color: white;*/
+    height: 35px;
+}
+
+.contenedora_login {
+    font-family: 'Kanit', sans-serif;
+    padding: 35px;
+}
+
+.login {
+    background-color: white;
+    border-radius: 5px;
+    height: 450px;
+    margin: auto;
+    padding: 35px;
+    width: 400px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login img {
+    padding-left: 60px;
+}
+
+.caja {
+    height: 400px;
+    padding: 5px;
+}
+
+.caja h1 {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.caja h2 {
+    color: white;
+    padding: 10px;
+}
+
+.caja form {
+    background-color: rgb(200, 78, 80);
+    padding: 10px;
+}
+
+.caja input {
+    border: 1px solid black;
+    height: 30px;
+    outline: none;
+    width: 300px;
+}
+
+.caja input:focus {
+    border: 2px solid #228b22;
+}
+
+.ingresa {
+    padding: 20px;
+    text-align: center;
+}
+
+.ingresa button {
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    height: 25px;
+    width: 225px;
+}
+
+/*Parte historial de uso */
+
+.contenedora_historial {
+    padding: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seccion_historial {
+    /*border: 1px solid black;*/
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 700px;
+    margin: auto;
+    padding: 10px;
+    width: 1100px;
+}
+
+.options-history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 100px;
+    gap: 25px;
+}
+
+.options-history li {
+    list-style: none;
+}
+
+.caja_titulo {
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(200, 78, 80);
+    height: 50px;
+    text-align: center;
+}
+
+.caja_titulo h1 {
+    color: #228b22;
+    padding-top: 15px;
+}
+
+.genera_espacio {
+    padding: 25px;
+}
+
+.caja_historial {
+    /*background-image: url(images/logod.png);
+ background-size: cover;
+ background-position: center;*/
+    height: 450px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.registro_historial td {
+    text-align: center;
+}
+
+.registro_historial .campos {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom-color: #228b22;
+    border-top-color: #228b22;
+    color: rgb(200, 78, 80);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.top {
+    border-bottom: 1px solid black;
+    border-bottom-color: #228b22;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* style Observation */
+.contenedora_login {
+
+
+    font-family: 'Kanit', sans-serif;
+    padding: 35px;
+    /*background-color: rgb(200, 78, 80);*/
+
+}
+
+.login {
+
+    background-color: white;
+    border-radius: 5px;
+    height: 450px;
+    margin: auto;
+    padding: 35px;
+    width: 400px;
+
+
+
+}
+
+.login img {
+
+    padding-left: 60px;
+
+}
+
+.caja {
+
+    height: 400px;
+    padding: 5px;
+    
+
+
+}
+
+.caja h1 {
+
+    font-size: 20px;
+    padding-left: 100px;
+
+
+}
+
+
+.caja h2 {
+
+    color: white;
+    padding: 10px;
+
+
+}
+
+.caja form {
+
+    background-color: rgb(200, 78, 80);
+    padding: 10px;
+
+
+}
+
+.caja input {
+    border: 1px solid black;
+    height: 30px;
+    outline: none;
+    width: 400px;
+
+}
+
+
+.caja input:focus {
+
+    border: 2px solid #228b22;
+
+}
+
+.ingresa {
+
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.ingresa button {
+
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    height: 25px;
+    width: 225px;
+
+}
+
+
+/* styles orservation */
+.contenedora_historial {
+
+    padding: 40px;
+
+}
+
+
+.seccion_historial {
+
+    /*border: 1px solid black;*/
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    max-height: 700px;
+    margin: auto;
+    padding: 10px;
+    width: 1100px;
+
+}
+
+.contenedor_obs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input, select:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.texto_obs1 {
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+
+.texto_obs2 {
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+
+.texto_obs1, .texto_obs2, textarea {
+    width: 100%;
+    display: inline;
+}
+
+input[type="time"], input[type="date"], select {
+    background-color: rgb(250, 240, 240);
+    padding: 3px 4px;
+    border: none;
+}
+
+textarea {
+    background-color: rgb(250, 240, 240);
+}
+
+.botn_obs {
+    background-color: red;
+    border-color: black;
+    border-width: thin;
+    border-radius: 4px;
+    padding: 5px 5px;
+    width: 300px;
+    height: 30px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botn_obs:hover {
+    background-color: #a11515;
+}
+.boton_E{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+.titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*nuevo home*/
+
+.contenedora-main
+  {
+
+  padding: 10px;
+
+
+  }
+
+  .seccion-main
+  {
+
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      height: 200px;
+      margin: auto;
+      width: 200px;
+
+
+  }
+

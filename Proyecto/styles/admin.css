@@ -1,0 +1,83 @@
+.laboratorios-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    width: 1100px; */
+}
+.lab-style{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.buton-ad{
+    padding: 2px 10px;
+    margin-bottom: 15px;
+    background-color: rgb(200, 78, 80);
+    border: none;
+    color: white;
+}
+.list-admin{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background-color:rgb(255, 255, 255) ;
+    margin: 10px;
+    max-height: 150px;
+    width: 1100px;
+    grid-column: 2 / 12;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.list-admin, div{
+    margin: 5px 1px;
+}
+.seccion{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+   
+}
+input[type="date"], input[type="text"], input[type="number"]{
+    background-color: rgb(250, 240, 240);
+    padding: 3px 4px;
+    border: none;
+}
+input[type="text"]{
+    width: 300px;
+}
+input[type="number"]{
+    width: 30px;
+}
+.recom{
+    grid-column: 1/4;
+}
+.obser{
+    grid-column: 1/4;
+}
+.titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.maquina-con{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items:center;
+    
+}
+.maqui-style{
+    gap: 10px;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    align-items:center;
+
+}
+.lab-con{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lab-con1{
+    grid-column: 3/11;
+}

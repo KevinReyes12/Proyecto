@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observaciones</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="nav-main">
+            <a href="#"><img class="log-facci" src="../images/FacciLOGO.png" alt="logo de Facci"></a>
+            <ul class="nav-menu">
+
+
+                <div class="example">
+
+                    <div class="options-menu">
+
+                        <button class="click">Opciones</button>
+
+                        <div class="list">
+
+                            <a href="separar-lab.html"><button class="links">Separar laboratorio</button></a>
+
+
+                            <a href="history.html"><button class="links">Historial de Laboratorios</button></a>
+
+
+                        </div>
+                    </div>
+
+
+                    <li><a class="boton_E" href="login.html">Cerrar sesión</a></li>
+            </ul>
+
+        </nav>
+        <hr>
+
+        <h1 class="titulo" ALIGN="center">Gestión de laboratotios</h1>
+        <div class="contenedora_historial">
+
+            <section class="seccion_historial">
+                <h1 class="titulo" style="text-align: center;">OBSERVACIONES DE LABORATORIOS</h1>
+                <div class="contenedor_obs">
+
+                    <div class="uno">
+                        <label for="">Laboratorio</label>
+                        <select name="laboratorio">
+                            <option value="laboratorio 1">Laboratorio 201</option>
+                            <option value="laboratorio 2">Laboratorio 202</option>
+                            <option value="laboratorio 3">Laboratorio 203</option>
+                            <option value="laboratorio 3">Laboratorio 204</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Curso</label>
+                        <select name="curso">
+                            <option value="curso1">Primero C</option>
+                            <option value="curso2">Primero A</option>
+                            <option value="curso3">Primero B</option>
+                            <option value="curso4">Primero D</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Docente</label>
+                        <select name="docente">
+                            <option value="docente1">PATRICIA ALEXANDRA QUIROZ PALMA</option>
+                            <option value="docente2">PATRICIA ALEXANDRA QUIROZ PALMA</option>
+                            <option value="docente3">PATRICIA ALEXANDRA QUIROZ PALMA</option>
+                            <option value="docente4">PATRICIA ALEXANDRA QUIROZ PALMA</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="">Fecha</label>
+                        <input type="date" class="fecha" id="fecha"> 
+                    </div>
+                    <div>
+                        <label for="">Hora inicio</label>
+                        <input type="time" class="fecha" id="hora-inicio">
+                    </div>
+                    <div>
+                        <label for="">Hora fin</label>
+                        <input type="time" class="fecha" id="hora-fin">
+                    </div>
+                    <div class="texto_obs1">
+                        <label for="">Observaciones</label>
+                        <textarea name="comentarios" rows="5" cols="40" id="obser"></textarea>
+                    </div>
+                    <div class="texto_obs2">
+                        <label for="">Recomendaciones</label>
+                        <textarea name="comentarios" rows="5" cols="40" id="recom"></textarea>
+                    </div>
+                    <div>
+                        <button class="botn_obs" id="boton">Enviar comentarios</button>
+                        <!-- <button type="button" value="enviar comentarios" class="botn_obs"> -->
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+    <script src="../js/observaciones.js"></script>
+    <script src="../js/controller.js"></script>
+    <iframe class="footer-inf" src="footer.html" frameborder="0"></iframe>
+</body>
+
+</html>

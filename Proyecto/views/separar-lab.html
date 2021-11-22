@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Separar Laboratorio</title>
+    <!-- iconos font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <a href="#"><img class="log-facci" src="../images/FacciLOGO.png" alt="logo de Facci"></a>
+            <ul class="nav-menu">
+
+
+                <div class="example">
+
+                    <div class="options-menu">
+
+                        <button class="click">Opciones</button>
+
+                        <div class="list">
+
+                            <a href="observaciones.html"><button class="links">Observaciones</button></a>
+
+
+                            <a href="history.html"><button class="links">Historial de Laboratorios</button></a>
+
+
+                        </div>
+                    </div>
+
+
+                    <li><a class="boton_E" href="login.html">Cerrar sesión</a></li>
+            </ul>
+
+        </nav>
+        <hr>
+
+        <div class="container-gestion">
+            <div class="crud-lab-dates">
+                <h1 class="titulo" ALIGN="center">Separar laboratorio</h1>
+                <div class="options">
+
+
+
+                    <li><a href="history.html"><i class="fas fa-search"></i></a></li>
+
+
+                </div>
+                <div class="form-date-lab">
+                    <form action="#">
+                        <div class="date-lab">
+                            <label for="name">Elija el laboratorio</label>
+                            <input type="text" id="Elab">
+                        </div>
+                        <div class="date-lab">
+                            <label for="name">Fecha</label>
+                            <input type="date" id="fecha">
+                        </div>
+                        <div class="date-lab">
+                            <label for="name">Materia impartida</label>
+                            <input type="text"id="materia">
+                        </div>
+                        <div class="date-lab">
+                            <label for="name">Horario</label>
+                            <input type="time" id="horario">
+                        </div>
+                        <div class="date-lab">
+                            <label for="name">Máquinas a Utilizar</label>
+                            <input type="number"id="maquina">
+                        </div>
+                        </div>
+                        <div class="date-lab">
+                            <label for="name">Laboratorio</label>
+                            <input type="text"id="lab">
+                        </div>
+
+                        <div class="date-lab">
+                            <label for="name">Docente/Tutor</label>
+                            <input type="text" id="DT">
+                        </div>
+
+                        <li><a href="#"><i class="fas fa-plus" id="btn2"></i></a></li>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <iframe class="footer-inf" src="footer.html" frameborder="0"></iframe>
+    <script src="../js/controller.js"></script>
+    <script src="js/separa.js"></script>
+</body>
+
+</html>
